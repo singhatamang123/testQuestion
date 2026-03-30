@@ -1,0 +1,21 @@
+{
+  "name": "MCQ Master - 20 Marks Test",
+  "short_name": "MCQ Master",
+  "description": "Class 4 to 9 MCQ Quiz with Timer and PDF Certificate",
+  "start_url": "MCQ-Test.html",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#3b82f6",
+  "icons": [
+    {
+      "src": "https://via.placeholder.com/192/3b82f6/ffffff?text=MCQ",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://via.placeholder.com/512/3b82f6/ffffff?text=MCQ",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
