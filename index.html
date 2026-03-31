@@ -39,14 +39,33 @@
 </head>
 <body class="bg-gradient-to-br from-slate-50 to-blue-50 min-h-screen">
 
-    <nav class="bg-white border-b shadow-sm sticky top-0 z-50">
-        <div class="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
-            <div class="flex items-center gap-3">
-                <div class="w-9 h-9 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-2xl">📝</div>
-                <h1 class="title-font text-2xl font-semibold tracking-tight text-slate-900">MCQ Master</h1>
-            </div>
-        </div>
-    </nav>
+    <nav class="bg-white border-b shadow-md sticky top-0 z-50">
+  <div class="max-w-6xl mx-auto px-8 py-6 grid grid-cols-3 items-center">
+    
+    <!-- Left side: Logo -->
+    <div class="flex justify-start">
+      <img src="/logo-removebg-preview.png" 
+           alt="Alchemist Academy Logo" 
+           class="w-16 h-16 rounded-full shadow-md">
+    </div>
+
+    <!-- Center: School Name -->
+    <div class="text-center">
+      <h1 class="title-font text-3xl font-bold tracking-tight text-blue-700">
+        Alchemist Academy
+      </h1>
+    </div>
+
+    <!-- Right side: Aptitude Test -->
+    <div class="flex justify-end">
+      <span class="text-xl font-semibold text-slate-700">
+        Aptitude Test
+      </span>
+    </div>
+
+  </div>
+</nav>
+
 
     <!-- Timer (Global - visible only during quiz) -->
     <div id="timer-display" class="hidden fixed top-4 right-6 bg-white shadow-lg px-5 py-2 rounded-3xl text-xl font-mono font-semibold text-red-600 border z-50">
