@@ -129,7 +129,7 @@ function generatePDF(doc, pageWidth, pageHeight, logoBase64, studentName, studen
 
     // Certificate Title
     doc.setFontSize(15);
-    doc.text("Phone: 01-4912267", pageWidth/2, 54, { align: "center" });
+    doc.text("Phone: 01-4912267", pageWidth/2 + 10, 54, { align: "center" });
 
     // === STUDENT DETAILS BOX ===
     let y = 85;
